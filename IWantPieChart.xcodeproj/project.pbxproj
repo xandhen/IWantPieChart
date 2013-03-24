@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9AAC2A916F50236000CE96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2A816F50236000CE96E /* UIKit.framework */; };
+		D9AAC2AB16F50236000CE96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2AA16F50236000CE96E /* Foundation.framework */; };
+		D9AAC2AD16F50236000CE96E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2AC16F50236000CE96E /* CoreGraphics.framework */; };
+		D9AAC2B316F50236000CE96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC2B116F50236000CE96E /* InfoPlist.strings */; };
+		D9AAC2B516F50236000CE96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC2B416F50236000CE96E /* main.m */; };
+		D9AAC2B916F50236000CE96E /* IWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC2B816F50236000CE96E /* IWAppDelegate.m */; };
+		D9AAC2BB16F50236000CE96E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC2BA16F50236000CE96E /* Default.png */; };
+		D9AAC2BD16F50236000CE96E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC2BC16F50236000CE96E /* Default@2x.png */; };
+		D9AAC2BF16F50236000CE96E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC2BE16F50236000CE96E /* Default-568h@2x.png */; };
+		D9AAC2C216F50236000CE96E /* IWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC2C116F50236000CE96E /* IWViewController.m */; };
+		D9AAC2CD16F50236000CE96E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2CC16F50236000CE96E /* SenTestingKit.framework */; };
+		D9AAC2CE16F50236000CE96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2A816F50236000CE96E /* UIKit.framework */; };
+		D9AAC2CF16F50236000CE96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2AA16F50236000CE96E /* Foundation.framework */; };
+		D9AAC2D716F50236000CE96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC2D516F50236000CE96E /* InfoPlist.strings */; };
+		D9AAC2DA16F50236000CE96E /* IWantPieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC2D916F50236000CE96E /* IWantPieChartTests.m */; };
+		D9AAC2E416F50255000CE96E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAC2E316F50255000CE96E /* QuartzCore.framework */; };
+		D9AAC2E816F502D1000CE96E /* IWPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC2E716F502D1000CE96E /* IWPieChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9AAC2D016F50236000CE96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AAC29D16F50236000CE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AAC2A416F50236000CE96E;
+			remoteInfo = IWantPieChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9AAC2A516F50236000CE96E /* IWantPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWantPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AAC2A816F50236000CE96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9AAC2AA16F50236000CE96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9AAC2AC16F50236000CE96E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9AAC2B016F50236000CE96E /* IWantPieChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IWantPieChart-Info.plist"; sourceTree = "<group>"; };
+		D9AAC2B216F50236000CE96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9AAC2B416F50236000CE96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9AAC2B616F50236000CE96E /* IWantPieChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IWantPieChart-Prefix.pch"; sourceTree = "<group>"; };
+		D9AAC2B716F50236000CE96E /* IWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWAppDelegate.h; sourceTree = "<group>"; };
+		D9AAC2B816F50236000CE96E /* IWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWAppDelegate.m; sourceTree = "<group>"; };
+		D9AAC2BA16F50236000CE96E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D9AAC2BC16F50236000CE96E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9AAC2BE16F50236000CE96E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9AAC2C016F50236000CE96E /* IWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWViewController.h; sourceTree = "<group>"; };
+		D9AAC2C116F50236000CE96E /* IWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWViewController.m; sourceTree = "<group>"; };
+		D9AAC2CB16F50236000CE96E /* IWantPieChartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IWantPieChartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AAC2CC16F50236000CE96E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9AAC2D416F50236000CE96E /* IWantPieChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IWantPieChartTests-Info.plist"; sourceTree = "<group>"; };
+		D9AAC2D616F50236000CE96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9AAC2D816F50236000CE96E /* IWantPieChartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWantPieChartTests.h; sourceTree = "<group>"; };
+		D9AAC2D916F50236000CE96E /* IWantPieChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWantPieChartTests.m; sourceTree = "<group>"; };
+		D9AAC2E316F50255000CE96E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9AAC2E616F502D1000CE96E /* IWPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWPieChart.h; sourceTree = "<group>"; };
+		D9AAC2E716F502D1000CE96E /* IWPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWPieChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AAC2A216F50236000CE96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2E416F50255000CE96E /* QuartzCore.framework in Frameworks */,
+				D9AAC2A916F50236000CE96E /* UIKit.framework in Frameworks */,
+				D9AAC2AB16F50236000CE96E /* Foundation.framework in Frameworks */,
+				D9AAC2AD16F50236000CE96E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AAC2C716F50236000CE96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2CD16F50236000CE96E /* SenTestingKit.framework in Frameworks */,
+				D9AAC2CE16F50236000CE96E /* UIKit.framework in Frameworks */,
+				D9AAC2CF16F50236000CE96E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9AAC29C16F50235000CE96E = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2E316F50255000CE96E /* QuartzCore.framework */,
+				D9AAC2AE16F50236000CE96E /* IWantPieChart */,
+				D9AAC2D216F50236000CE96E /* IWantPieChartTests */,
+				D9AAC2A716F50236000CE96E /* Frameworks */,
+				D9AAC2A616F50236000CE96E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AAC2A616F50236000CE96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2A516F50236000CE96E /* IWantPieChart.app */,
+				D9AAC2CB16F50236000CE96E /* IWantPieChartTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AAC2A716F50236000CE96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2A816F50236000CE96E /* UIKit.framework */,
+				D9AAC2AA16F50236000CE96E /* Foundation.framework */,
+				D9AAC2AC16F50236000CE96E /* CoreGraphics.framework */,
+				D9AAC2CC16F50236000CE96E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9AAC2AE16F50236000CE96E /* IWantPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2E516F502B2000CE96E /* IWPieChart */,
+				D9AAC2B716F50236000CE96E /* IWAppDelegate.h */,
+				D9AAC2B816F50236000CE96E /* IWAppDelegate.m */,
+				D9AAC2C016F50236000CE96E /* IWViewController.h */,
+				D9AAC2C116F50236000CE96E /* IWViewController.m */,
+				D9AAC2AF16F50236000CE96E /* Supporting Files */,
+			);
+			path = IWantPieChart;
+			sourceTree = "<group>";
+		};
+		D9AAC2AF16F50236000CE96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2B016F50236000CE96E /* IWantPieChart-Info.plist */,
+				D9AAC2B116F50236000CE96E /* InfoPlist.strings */,
+				D9AAC2B416F50236000CE96E /* main.m */,
+				D9AAC2B616F50236000CE96E /* IWantPieChart-Prefix.pch */,
+				D9AAC2BA16F50236000CE96E /* Default.png */,
+				D9AAC2BC16F50236000CE96E /* Default@2x.png */,
+				D9AAC2BE16F50236000CE96E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9AAC2D216F50236000CE96E /* IWantPieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2D816F50236000CE96E /* IWantPieChartTests.h */,
+				D9AAC2D916F50236000CE96E /* IWantPieChartTests.m */,
+				D9AAC2D316F50236000CE96E /* Supporting Files */,
+			);
+			path = IWantPieChartTests;
+			sourceTree = "<group>";
+		};
+		D9AAC2D316F50236000CE96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2D416F50236000CE96E /* IWantPieChartTests-Info.plist */,
+				D9AAC2D516F50236000CE96E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9AAC2E516F502B2000CE96E /* IWPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAC2E616F502D1000CE96E /* IWPieChart.h */,
+				D9AAC2E716F502D1000CE96E /* IWPieChart.m */,
+			);
+			name = IWPieChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9AAC2A416F50236000CE96E /* IWantPieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AAC2DD16F50236000CE96E /* Build configuration list for PBXNativeTarget "IWantPieChart" */;
+			buildPhases = (
+				D9AAC2A116F50236000CE96E /* Sources */,
+				D9AAC2A216F50236000CE96E /* Frameworks */,
+				D9AAC2A316F50236000CE96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IWantPieChart;
+			productName = IWantPieChart;
+			productReference = D9AAC2A516F50236000CE96E /* IWantPieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9AAC2CA16F50236000CE96E /* IWantPieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AAC2E016F50236000CE96E /* Build configuration list for PBXNativeTarget "IWantPieChartTests" */;
+			buildPhases = (
+				D9AAC2C616F50236000CE96E /* Sources */,
+				D9AAC2C716F50236000CE96E /* Frameworks */,
+				D9AAC2C816F50236000CE96E /* Resources */,
+				D9AAC2C916F50236000CE96E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AAC2D116F50236000CE96E /* PBXTargetDependency */,
+			);
+			name = IWantPieChartTests;
+			productName = IWantPieChartTests;
+			productReference = D9AAC2CB16F50236000CE96E /* IWantPieChartTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AAC29D16F50236000CE96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andreas Henriksson";
+			};
+			buildConfigurationList = D9AAC2A016F50236000CE96E /* Build configuration list for PBXProject "IWantPieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9AAC29C16F50235000CE96E;
+			productRefGroup = D9AAC2A616F50236000CE96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AAC2A416F50236000CE96E /* IWantPieChart */,
+				D9AAC2CA16F50236000CE96E /* IWantPieChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AAC2A316F50236000CE96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2B316F50236000CE96E /* InfoPlist.strings in Resources */,
+				D9AAC2BB16F50236000CE96E /* Default.png in Resources */,
+				D9AAC2BD16F50236000CE96E /* Default@2x.png in Resources */,
+				D9AAC2BF16F50236000CE96E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AAC2C816F50236000CE96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2D716F50236000CE96E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9AAC2C916F50236000CE96E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AAC2A116F50236000CE96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2B516F50236000CE96E /* main.m in Sources */,
+				D9AAC2B916F50236000CE96E /* IWAppDelegate.m in Sources */,
+				D9AAC2C216F50236000CE96E /* IWViewController.m in Sources */,
+				D9AAC2E816F502D1000CE96E /* IWPieChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AAC2C616F50236000CE96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AAC2DA16F50236000CE96E /* IWantPieChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9AAC2D116F50236000CE96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AAC2A416F50236000CE96E /* IWantPieChart */;
+			targetProxy = D9AAC2D016F50236000CE96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9AAC2B116F50236000CE96E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9AAC2B216F50236000CE96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9AAC2D516F50236000CE96E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9AAC2D616F50236000CE96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9AAC2DB16F50236000CE96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9AAC2DC16F50236000CE96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9AAC2DE16F50236000CE96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWantPieChart/IWantPieChart-Prefix.pch";
+				INFOPLIST_FILE = "IWantPieChart/IWantPieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9AAC2DF16F50236000CE96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWantPieChart/IWantPieChart-Prefix.pch";
+				INFOPLIST_FILE = "IWantPieChart/IWantPieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9AAC2E116F50236000CE96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IWantPieChart.app/IWantPieChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWantPieChart/IWantPieChart-Prefix.pch";
+				INFOPLIST_FILE = "IWantPieChartTests/IWantPieChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9AAC2E216F50236000CE96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IWantPieChart.app/IWantPieChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWantPieChart/IWantPieChart-Prefix.pch";
+				INFOPLIST_FILE = "IWantPieChartTests/IWantPieChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AAC2A016F50236000CE96E /* Build configuration list for PBXProject "IWantPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AAC2DB16F50236000CE96E /* Debug */,
+				D9AAC2DC16F50236000CE96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AAC2DD16F50236000CE96E /* Build configuration list for PBXNativeTarget "IWantPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AAC2DE16F50236000CE96E /* Debug */,
+				D9AAC2DF16F50236000CE96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9AAC2E016F50236000CE96E /* Build configuration list for PBXNativeTarget "IWantPieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AAC2E116F50236000CE96E /* Debug */,
+				D9AAC2E216F50236000CE96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9AAC29D16F50236000CE96E /* Project object */;
+}
